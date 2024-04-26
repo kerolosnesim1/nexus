@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="sigin.css">
+</head>
+<body>
+
+  <div class="siginin_popup" id="siginin_popup">
+
+
+  <form action="/login" method="POST">
+    <label for="username">Username*</label>
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="password">Password*</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label> <input type="checkbox" id="remember" > remember </label>
+
+    <button type="submit">Login</button><br>
+
+    <a href="/forgot-password">Forgot password</a><br>
+    <a href="register.html">Don't have an account?</a>
+  </form>
+</div>
+  
+</body>
+</html>

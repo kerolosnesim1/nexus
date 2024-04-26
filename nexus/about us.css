@@ -1,0 +1,37 @@
+.perant{
+  display: flex;
+  justify-content: space-between;
+
+}
+.left , .right{
+  width: 50%;
+  
+}
+.team_member{
+  color: #4f6269;
+   background-color:#E8E8E7;
+ padding: 2%;
+  margin: 3%;
+ border-radius: 15px;
+ font-weight: bold;
+  
+font-size: 13px;
+ 
+  p{font-size: 18px;
+    color: rgba(8, 177, 98, 0.562)
+  }
+}
+
+
+
+.photo{
+  margin: 2%;
+  padding: 2%;
+ 
+}
+
+   .photo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
